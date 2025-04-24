@@ -1,3 +1,5 @@
+// Estrutura para funcionamento no modo PIUIO, não mexa. 
+
 #ifndef PIUIO_PICO_PIUIO_STRUCTS_H
 #define PIUIO_PICO_PIUIO_STRUCTS_H
 
@@ -47,5 +49,7 @@ struct lampArray {
         };
     };
 };
+
+
 
 #endif //PIUIO_PICO_PIUIO_STRUCTS_H
