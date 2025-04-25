@@ -26,7 +26,7 @@ Modified pins in [`piuio_config.h`](./piuio_config.h) *(schematic coming soon)*.
    - `FG` → Earth Ground (symbol: ⏚)  
 
 2. **Button Output (to PIUIO)**  
-   - Signals: `OUTUP_P1`, `OUTDOWN_P1`, `OUTLEFT_P1`, `OUTRIGHT_P1`, `OUTCEN_P1`  
+   - Signals: `OUTUP_P1`, `OUTDOWN_P1`, `OUTLEFT_P1`, `OUTRIGHT_P1`, `OUTCEN_P1`  (Here you connect the RP2040 for the buttons) 
    - *Note*: Mapped as `UpLeft`, `UpRight`, `Center`, `DownLeft`, `DownRight`. Confusing? Maybe, but it works! 😆  
 
 3. **Light Input (from PIUIO)**  
@@ -72,7 +72,7 @@ As such, this use case is not officially endorsed by piuio-pico.
 
 ## 🌟 Credits  
 - Original PIUIO concept by [48productions](https://github.com/48productions).  
-- FootPCB adaptation by **you**!
+- FootPCB adaptation by **me**!
 
 - This project is based off of the [tinyusb device USB examples](https://github.com/hathach/tinyusb/tree/master/examples/device) (specifically webusb_serial and hid_generic_input)
 
